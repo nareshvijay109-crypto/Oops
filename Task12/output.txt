@@ -1,0 +1,3 @@
+Airport weekday peak Rs 72
+Outer weekend peak Rs 27
+Inner covered by pass Rs 0
