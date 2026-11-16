@@ -1,0 +1,1 @@
+Fare paise=3600 accepted=true balance paise=6400
