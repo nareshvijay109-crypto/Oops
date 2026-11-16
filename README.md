@@ -9,8 +9,13 @@
 https://github.com/nareshvijay109-crypto/Oops
 
 ## Contents
-- `Task01` through `Task12`: task-wise C++ source files and captured sample output text.
-- The detailed 10-page report is provided with the Google Classroom submission and in the downloadable assignment package.
+Each task folder (Task01-Task12) contains:
+- C++ source file (`taskNN.cpp`)
+- Sample execution output (`output.txt`)
+- Code preview image (`code_screenshot.svg`)
+- Output preview image (`output_screenshot.svg`)
+
+The detailed 10-page report is included in the downloadable assignment package for submission through Google Classroom.
 
 ## Compiler and commands
 Programs are written for C++17. Compile a task with:
@@ -28,15 +33,12 @@ g++ -std=c++17 -Wall -Wextra -pedantic Task01/task01.cpp -o task01.exe
 ```
 Record your actual compiler version using `g++ --version`.
 
-## Task folders
-Each task folder contains its C++ source file and a sample output text file. The task folders cover OOP analysis, constants and tokens, data types, conversions, operators, control structures, procedural versus OOP design, input/output, testing, scale analysis, final recommendation and the Day-4 design challenge.
-
 ## Submission checklist
-1. Add genuine program-code screenshots and execution-output screenshots from your computer to each task folder.
-2. Confirm that all source files compile and run with your installed C++17 compiler.
-3. Commit progressively; the source and output files have been committed task by task.
+1. Review and run all programs with your installed C++17 compiler.
+2. If the faculty specifically requires screenshots captured from a local IDE/terminal, replace or supplement the SVG preview images with fresh screenshots from your own computer.
+3. The source and output files have been committed task by task.
 4. Keep this repository public or add the course faculty as a collaborator.
-5. Submit this repository URL and the detailed PDF in Google Classroom.
+5. Submit this repository URL and the detailed 10-page PDF in Google Classroom.
 
 ## Academic integrity / verification
-This is a worked reference package. Read, understand and personally execute every program. Replace sample outputs or screenshots where your local compiler produces different platform-specific details. Be prepared to explain the fare calculation, type choices, validation rules, test cases and design trade-offs during the viva.
+This is a worked reference package. Read, understand and personally execute every program. Replace sample outputs with results from your own computer if platform-specific details differ. Be prepared to explain the fare calculation, type choices, validation rules, test cases and design trade-offs during the viva.
