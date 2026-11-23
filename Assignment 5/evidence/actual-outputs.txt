@@ -1,0 +1,42 @@
+Compiler: g++ (Debian 14.2.0)
+Normal compilation flags: -std=c++17 -Wall -Wextra -pedantic
+Benchmark flags: -std=c++17 -O2 -Wall -Wextra
+
+[TODO solution]
+OP Ravi: 1700
+IP Meena: 47500
+Total 49200
+
+[Full billing]
+OP Ravi: 1700
+IP Meena: 47500
+DAYCARE Arun: 18000
+EMERGENCY Leela: 5000
+TELEMEDICINE Kumar: 900
+Day total: 73100
+SelfPay covers OP bill: 1700
+Insurance covers OP bill: 1360
+GovernmentScheme covers OP bill: 1700
+CorporateTieUp covers OP bill: 1530
+validation caught: negative charge
+
+[Runtime binding prediction]
+500 ~OPBill ~Bill 
+
+[Stack unwinding prediction]
+~f ~main caught 42
+
+[Claim rethrow complete-code]
+approved 40000
+audit: exceeds cover
+claim rejected: exceeds cover
+error: negative amount
+
+[Validation log/rethrow]
+ok done caught negative [log too large] caught too large 
+
+[AddressSanitizer note]
+All sanitizer targets compiled with -fsanitize=address -fno-omit-frame-pointer.
+Execution in this environment failed before main with:
+"ASan runtime does not come first in initial library list".
+This is a runtime/container configuration limitation, not a clean sanitizer result.

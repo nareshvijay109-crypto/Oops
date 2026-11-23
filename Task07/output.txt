@@ -1,2 +1,0 @@
-Procedural balance=6400
-OOP balance=6400
