@@ -1,0 +1,12 @@
+Inner offpeak: fare_paise=1000 allowed=true [PASS]
+Middle peak 8AM: fare_paise=2400 allowed=true [PASS]
+Outer peak 9AM: fare_paise=3600 allowed=true [PASS]
+10AM boundary: fare_paise=3000 allowed=true [PASS]
+5PM boundary: fare_paise=1200 allowed=true [PASS]
+8PM boundary: fare_paise=1000 allowed=true [PASS]
+exact Rs50 left: fare_paise=3000 allowed=true [PASS]
+low balance: fare_paise=3000 allowed=false [PASS]
+Passed 8/8
+Five-journey total Rs 120
+Unknown zone rejected=true
+Negative recharge rejected=true

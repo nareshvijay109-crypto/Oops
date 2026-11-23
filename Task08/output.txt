@@ -1,0 +1,2 @@
+Input 9
+Enter hour (0-23): Fare Rs 12.34

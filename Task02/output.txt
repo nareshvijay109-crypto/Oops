@@ -1,0 +1,1 @@
+Outer fare paise=3000, peak percent=20, minimum balance paise=5000
